@@ -1,0 +1,3 @@
+CherryMX-RGB-SMD: Breakout-Board for a single MX-Type Switch with SMD Backlighting. A Diode on the Back allows for "Ghostless" Operation. A 1-Wire EEPROM could enable Autodetection of different Switches/LEDs as well as Analog Input Devices.
+
+The EEPROM is powered by the Row(3.3V) and Column(GND), because of this the Boards location in the Matrix can be determined despite the EEPROMs Address being fixed.
