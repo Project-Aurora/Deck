@@ -57,12 +57,12 @@ $EndComp
 $Comp
 L Led_RGB_CA D1
 U 1 1 57227EDF
-P 2550 2550
-F 0 "D1" H 2550 2900 50  0000 C CNN
-F 1 "Led_RGB_CA" H 2550 2200 50  0000 C CNN
-F 2 "prettylib:RGB" H 2505 2500 50  0001 C CNN
-F 3 "" H 2505 2500 50  0000 C CNN
-	1    2550 2550
+P 2600 2200
+F 0 "D1" H 2600 2550 50  0000 C CNN
+F 1 "Led_RGB_CA" H 2600 1850 50  0000 C CNN
+F 2 "prettylib:RGB" H 2555 2150 50  0001 C CNN
+F 3 "" H 2555 2150 50  0000 C CNN
+	1    2600 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -148,12 +148,27 @@ Text Label 1500 2850 0    60   ~ 0
 LED-2
 Text Label 1500 2750 0    60   ~ 0
 LED-1
-Text Label 2750 2550 0    60   ~ 0
+Text Label 2800 2200 0    60   ~ 0
 LED-1
-Text Label 2350 2750 2    60   ~ 0
+Text Label 2400 2400 2    60   ~ 0
 LED-4
-Text Label 2350 2550 2    60   ~ 0
+Text Label 2400 2200 2    60   ~ 0
 LED-3
-Text Label 2350 2350 2    60   ~ 0
+Text Label 2400 2000 2    60   ~ 0
 LED-2
+$Comp
+L LED D3
+U 1 1 573C2F07
+P 2600 2750
+F 0 "D3" H 2600 2850 50  0000 C CNN
+F 1 "LED" H 2600 2650 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 2600 2750 50  0001 C CNN
+F 3 "" H 2600 2750 50  0000 C CNN
+	1    2600 2750
+	1    0    0    -1  
+$EndComp
+Text Label 2400 2750 2    60   ~ 0
+LED-2
+Text Label 2800 2750 0    60   ~ 0
+LED-3
 $EndSCHEMATC
